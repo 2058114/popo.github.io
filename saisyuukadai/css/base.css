@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+
+
+nav
+{
+    text-align: center;
+}
+nav ul
+{
+    margin: 0 ;
+    padding: 0 ;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    min-width: 90px;
+}    
+nav ul li a
+{
+    text-decoration: none;
+    color: #333;
+}
+nav ul li.current a
+{
+    color: #F33135;
+}
+nav ul li a:hover
+{
+    color: #E7DA66;
+}
+
+h1
+{
+    font-size: 32px;
+    /* 背景色を指定するプロパティ */
+    background-color:#20b2aa;
+    background-size: 100%;
+    color: #ffffff;
+
+}
+
+body
+{
+    font-size: 20px;
+
+    /* フォントの種類を指定するプロパティ */
+    font-family: serif;
+
+    /* 背景色を指定するプロパティ */
+    background-color:#ffffff;
+
+    /* 文字の色を変更するプロパティ */
+    color: #000000;
+
+    /* 行の高さを指定するプロパティ */
+    /* 単位は　px, em, rem, % */
+    line-height: 2em;
+    text-align: center;
+
+}
+
+#osirase
+{
+    background-color: #d3d3d3;
+}
+
+
+
+
+
+#menu-
+{
+    text-align: justify;
+}
+
+h2
+{
+    /* テキストの行揃えを指定するプロパティ */
+    text-align: center;
+}
+
+h3
+{
+    /* テキストの行揃えを指定するプロパティ */
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.js-animation {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(40px);
+    transition: all 1s;
+  }
+  .js-animation.is-show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+  }
+
+
+
